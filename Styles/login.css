@@ -2,6 +2,7 @@
   font-family: "Angelos";
   src: url("../Fonts/Angelos.ttf");
 }
+/*For phones*/
 @media screen and (max-width: 600px) {
   body {
     background-image: url("../Images/BodyBackground.jpg");
@@ -59,6 +60,7 @@
     height: 100vh;
   }
 }
+/*For tablets*/
 @media screen and (max-width: 768px) {
   body {
     background-image: url("../Images/BodyBackground.jpg");
@@ -170,6 +172,7 @@
     height: 100vh;
   } 
 }
+/*For laptops*/
 @media screen and (max-width: 992px) {
   body {
     background-image: url("../Images/BodyBackground.jpg");
@@ -281,6 +284,7 @@
     height: 100vh;
   } 
 }
+/*For large desktops*/
 @media screen and (max-width: 1200px) {
   body {
     background-image: url("../Images/BodyBackground.jpg");
